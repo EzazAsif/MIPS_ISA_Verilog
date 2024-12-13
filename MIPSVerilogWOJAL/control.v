@@ -15,13 +15,16 @@ module Controlunit(input [5:0] Opcode,
                output reg  Jump,
                output PCSrc,
                output reg  [3:0] ALUControl
+               output reg  Jal,
+               output reg jr,
                );
                
 reg [7:0] temp;
 reg Branch,BNE;
 
 always @(*) begin 
-
+    jal<=0;
+    jr<=0;
     case (Opcode) 
         6'b000000: begin                          // R-type
                     temp <= 8'b11000000;        
@@ -46,6 +49,7 @@ always @(*) begin
                     6'b001000: begin // JR
                         ALUControl <= 4'b0000; // No ALU operation needed, just jump to address in $ra
                         Jump <= 1; // JR will trigger a jump
+                        jr<=1;
                      end
                 endcase
 
@@ -113,6 +117,7 @@ always @(*) begin
         6'b000011: begin // JAL
             temp <= 8'b10000010;
             ALUControl <= 4'b0010;
+            jal<=1;
                     end
                         
         6'b001111:  begin                         // LUI
