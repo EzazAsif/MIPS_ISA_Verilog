@@ -10,7 +10,7 @@ z2
 cModel Technology
 dD:/VerilogCPUs
 vadder
-Z0 !s110 1733762918
+Z0 !s110 1735061448
 !i10b 1
 !s100 HARc]ImKnf;JGdXZ^o^:F3
 I_]3S4X`e8A@R1C?7U:kbn2
@@ -24,7 +24,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1733762918.000000
+Z7 !s108 1735061448.000000
 Z8 !s107 C:/Users/Ezaz/Desktop/Github/CSE332_Final_Project_Summer2024/MIPSVerilogWOJAL/adder.v|
 Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Ezaz/Desktop/Github/CSE332_Final_Project_Summer2024/MIPSVerilogWOJAL/adder.v|
 !i113 1
@@ -52,7 +52,7 @@ Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Ezaz/Desktop/Github
 R10
 R11
 vControlunit
-R0
+Z14 !s110 1733762918
 !i10b 1
 !s100 kloo?2j<[?nP;ce:YaV]02
 ICZ?VQnXF;_@;CK_Hd=GF=1
@@ -66,7 +66,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z15 !s108 1733762918.000000
 R12
 R13
 !i113 1
@@ -76,11 +76,11 @@ n@controlunit
 vDatapath
 R0
 !i10b 1
-!s100 z_?18R9Z4ekN0DH_BMPVj0
-I`GTK2ZfF3AVW9lPUm4gOP3
+!s100 YQ=a8:fK[bABV>]`mMob>0
+I<0dmjI39YA^Ad`FNS@_HR1
 R1
 R2
-w1705215384
+w1734115833
 8datapath.v
 Fdatapath.v
 L0 15
@@ -160,7 +160,7 @@ R7
 R10
 R11
 vMIPS_SCP
-R0
+R14
 !i10b 1
 !s100 _VXQjmnY?AaC=J=Bb`@Kj2
 I:@aEMZHOF76YP6D@CS?a82
@@ -174,7 +174,7 @@ R6
 r1
 !s85 0
 31
-R7
+R15
 R12
 R13
 !i113 1
@@ -252,7 +252,7 @@ R0
 INEKedc`W3AMRjiG6[29>T2
 R1
 R2
-Z14 w1704776186
+Z16 w1704776186
 8C:/Users/Ezaz/Desktop/Github/CSE332_Final_Project_Summer2024/MIPSVerilogWOJAL/ram.v
 FC:/Users/Ezaz/Desktop/Github/CSE332_Final_Project_Summer2024/MIPSVerilogWOJAL/ram.v
 L0 5
@@ -273,7 +273,7 @@ R0
 Im[l=ccd3Lz;TP:V<`dC`G0
 R1
 R2
-R14
+R16
 8regfile32.v
 Fregfile32.v
 L0 6
